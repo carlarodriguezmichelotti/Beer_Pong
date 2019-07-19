@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Graduate&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+  
+  <script src ="./js/scoreboard.js"></script>
+  <script src ="./js/aimer.js"></script>
+  <script src ="./js/ball.js"></script>
+  <script src ="./js/table.js"></script>
+  <script src="./js/cup.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/game.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+ 
+  <canvas id="canvas"></canvas>
+  <audio src="sounds/ball_sound.mp3" id="ballsound"></audio>
+  <audio src="sounds/main_sound.mp3" id="gamesong"></audio>
+  <audio src="sounds/tada1.wav" id="success"></audio>
+
+  <div id="game-intro">
+    <h1>Beer Pong Champ</h1>
+     <div id="imageintro"><image src="images/home.png" alt= "¡You win!"></image></div>
+   
+    <br>
+    <div id ="buttondiv"><button id="start-button">START</button></div> 
+  </div>
+
+  <div id="game-restart">
+      
+    <div id="scorediv">
+      <div id="highestscorediv">
+          <h2>Highest score:</h2>
+          <h3 id="highest"></h3>
+          <h4 id="congrats">New record! Congrats!</h4>
+      </div>
+     
+      <div id="yourscorediv">
+          <h2>Your score:</h2>
+          <h3 id="yours"></h3>
+      </div>
+     
+    </div>
+     <br>
+     <div id ="buttonrestart"><button  id="restart-button">Restart</button></div> 

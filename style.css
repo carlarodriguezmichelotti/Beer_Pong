@@ -1,0 +1,104 @@
+#win{
+  margin: 0 auto;
+}
+
+#buttondiv{
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+#buttonrestart{
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+#imageintro{
+  display:block;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+#imagerestart{
+  display:block;
+  margin: 0 auto;
+  text-align: center
+}
+
+#canvas{
+  display: block;
+  background-image: none;
+}
+
+#game-intro{
+  display: block;
+}
+
+#congrats{
+  display: none;
+}
+#game-restart{
+  display: none;
+}
+
+#highestscorediv{
+  padding: 20px;
+}
+
+#yourscorediv{
+  padding: 20px
+}
+img{
+  display: block;
+  width: 40%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10px;
+}
+
+body{
+  background-image: url("images/opcion1.jpg");
+  background-size: cover;
+}
+body button {
+  font-size: 30px;
+  font-family: 'Graduate', sans-serif;
+  text-shadow: 1px 1px black;
+  background-color: #870007;
+  color: #fff;
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 1px;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+h2,h3,h4{
+  text-align: center;
+  font-family: 'Graduate',cursive;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+h2{
+  font-size: 45px;
+}
+
+h1{
+  font-family: 'Graduate', cursive;
+  font-size: 80px;
+  text-shadow: 5px 5px black;
+  text-align: center;
+  color:white;
+  margin-top: 40px;
+}
+
+h4{
+  font-size: 50px
+}
+
